@@ -16,3 +16,9 @@ def line(katz_deli)
     puts "The line is currently:#{new_list}"
   end
 end
+
+def take_a_number(katz_deli, name)
+  katz_deli = katz_deli.push(name)
+  line_position = katz_deli.length
+  puts "Welcome, #{name}. You are number #{line_position} in line."
+end

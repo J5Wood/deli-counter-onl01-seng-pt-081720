@@ -12,8 +12,7 @@ def line(katz_deli)
       new_list << " #{counter}. #{x}"
       counter += 1
     end
-    new_list = new_list.join    
+    new_list = new_list.join
     puts "The line is currently:#{new_list}"
   end
 end
-

@@ -8,10 +8,11 @@ def line(katz_deli)
   elsif katz_deli.length > 0
     counter = 1
     new_list
+    binding.pry
     katz_deli.each do |x|
       new_list << " #{counter}. #{x}"
       counter += 1
-      binding.pry
+      
     end
     puts "The line is currently: #{new_list}"
   end

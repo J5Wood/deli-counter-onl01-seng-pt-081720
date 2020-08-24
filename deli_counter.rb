@@ -13,6 +13,6 @@ def line(katz_deli)
     end
     binding.pry
     puts "The line is currently: #{new_list}"
-    
+
   end
 end

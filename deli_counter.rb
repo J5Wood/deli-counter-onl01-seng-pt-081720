@@ -14,7 +14,7 @@ def line(katz_deli)
     end
     new_list = new_list.join
     binding.pry
-    puts "The line is currently: #{new_list}"
+    puts "The line is currently:#{new_list}"
 
   end
 end

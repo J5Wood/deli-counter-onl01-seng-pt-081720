@@ -12,8 +12,8 @@ def line(katz_deli)
       new_list << " #{counter}. #{x}"
       counter += 1
     end
-    binding.pry
     new_list.join
+    binding.pry 
     puts "The line is currently: #{new_list}"
 
   end

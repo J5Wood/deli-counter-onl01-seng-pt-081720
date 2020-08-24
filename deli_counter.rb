@@ -1,4 +1,6 @@
 # Write your code here.
+require 'pry'
+
 katz_deli = []
 
 def line(katz_deli)
@@ -10,6 +12,7 @@ def line(katz_deli)
     katz_deli.each do |x|
       new_list << " #{counter}. #{x}"
       counter += 1
+      binding.pry
     end
     puts "The line is currently: #{new_list}"
   end

@@ -10,6 +10,7 @@ def line(katz_deli)
     counter = 1
     katz_deli.each do |x|
       new_list << " #{counter}. #{x}"
+      counter += 1
     end
     binding.pry
     puts "The line is currently: #{new_list}"

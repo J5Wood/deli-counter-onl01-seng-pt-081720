@@ -11,6 +11,6 @@ def line(katz_deli)
       x.unshift(counter)
       counter+=1
     binding.pry
-
+    end
   end
 end

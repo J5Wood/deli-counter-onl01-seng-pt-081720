@@ -13,6 +13,7 @@ def line(katz_deli)
       counter += 1
     end
     binding.pry
+    new_list.join
     puts "The line is currently: #{new_list}"
 
   end
